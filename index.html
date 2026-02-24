@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Skyview</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">SERVICES</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+
+                </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
+
+            </nav>
+
+<div class="text-box">
+     <h1>Skyview Travel Agency</h1>
+     <p>...Explore More,Travel Beyond.</p>
+     <a href="" class="hero-btn">visit our offices</a>
+
+</div>
+
+        </section>
+        <!-----services---->
+        <section class="services">
+            <h1>Services We Offer</h1>
+            <p></p>
+        <div class="row">
+            <div class="Services-col">
+                <h3>Job Matching</h3>
+            <p>We help our clients match their desired jobs in foreign countries</p>
+            </div>
+            <div class="Services-col">
+                <h3>Visa Assistance</h3>
+            <p>We help our clients apply for work visas and other necessary documentation within a short period of time</p>
+            </div>
+            <div class="Services-col">
+                <h3>Post-placement Support</h3>
+            <p>We provide our clients with accormodation and upkeep money to ensure a confortable work environment abroad.</p>
+            </div>
+       </div>
+       </section>
+
+       <!-----Skyview------->
+       <section class="Skyview">
+        <h1>Our Travel Agency</h1>
+        <p>At Skyview agency,we believe that every journey as seemless and memorable as the destination itself.</p>
+
+        <div class="row">
+            <div class="Skyview-col">
+                <img src="images/kenya.png">
+                <div class="layer">
+                    <h3>KENYA</h3>
+
+                </div>
+           </div>
+           <div class="Skyview-col">
+            <img src="images/saudi.png">
+            <div class="layer">
+                <h3>SAUDI ARABIA</h3>
+
+            </div>
+       </div>
+     </div>
+
+       </section>
+
+       <!------Job Vacancies----->
+       <section class="Job Vacancies">
+        <h1>Job Vacancies</h1>
+        <p>There are varieties of Jobs depending on the country our client wishes to work.</p>
+
+        <div class="row">
+            <div class="Job Vacancies-col">
+                <img src="images/caregiver.png">
+                <h3>Caregiving</h3>
+                <p>Vacancies are available</p>
+         </div>
+         
+     <div class="Job Vacancies-col">
+        <img src="images/security.png">
+        <h3>Security Guards</h3>
+        <p>Vacancies are available</p>
+ </div>
+ <div class="Job Vacancies-col">
+    <img src="images/fruit picking.png">
+    <h3>Farm Fruit picking</h3>
+    <p>Vacancies are available</p>
+</div>
+</div>
+     </section>
+
+     <!-------Reviews----->
+     <section class="Reviews">
+     <h1>Reviews</h1>
+     <p>These are some of the reviews our clients have given.</p>
+
+     <div class="row">
+        <div class="Reviews-col">
+            <img src="images/user1.png.jpg">
+            <div>
+                <p>Skyview is the  best travel agency i have ever used,they helped me acquire my passport and work visa within a very short period of time and right now am happily working in Saudi Arabia as a security guard.</p>
+            <h3>Kelvin Maeri</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+             </div>
+         </div>
+         <div class="Reviews-col">
+            <img src="images/facory works.jpg">
+            <div>
+                <p>My sister is currently working as a caregiver in Dubai,thanks to Skyview for helping her do this.They helped her acquire documentations in no time and am also looking forward to working abroad wih their help</p>
+            <h3>Amos Mutie</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+            
+            </div>
+         </div>
+     </div>
+    </section>
+
+
+    <!-----Call To Action---->
+
+    <section class="cta">
+        <h1>You Can Get Our Services Through Our Website <br> Or Visit Our Offices</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+        
+    </section>
+
+    <!-----Footer---->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>At Skyview Agencies, we make international work travel simple and stress-free. Whether you're relocating for a new job, attending global business conferences, or exploring career opportunities abroad, we handle every detail—from visa and work permit processing to flights, accommodation, and corporate travel arrangements.
+
+            With a dedicated team and a strong network of global partners, we provide tailored solutions for professionals, businesses, and expatriates. Our expertise ensures a smooth transition to your destination, helping you focus on what matters most—your career. <br>
+            
+            Let us take care of the logistics while you take the next step in your professional journey. <br>
+            
+            📍 Global Work Travel Experts | ✈️ Hassle-Free Relocations | 🌍 Work Permits & Visa Assistance</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made <i class="fa fa-heart-o"></i>by Kelvins</p>
+
+    </section>
+
+        <!------javascript for toggle menu-------->
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right= "0";
+            }
+            function hideMenu(){
+                navLinks.style.right= "-200px";
+            }
+        </script>
+    </body>
+</html>
